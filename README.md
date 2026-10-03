@@ -15,6 +15,7 @@
 
 # 4. 装完重新执行scons编译
 `scons build/ALL/gem5.opt -j$(nproc)`
+
 这一步需要等10~20分钟
 
 # 运行测试代码
