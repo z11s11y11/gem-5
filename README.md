@@ -14,7 +14,8 @@
 `pip install -r requirements.txt`
 
 # 4. 装完重新执行scons编译
-`scons build_opt/ALL/gem5.opt -j$(nproc)`
+`scons build/ALL/gem5.opt -j$(nproc)`
+这一步需要等10~20分钟
 
 # 运行测试代码
 `build/ALL/gem5.opt configs/learning_gem5/part1/simple.py`
